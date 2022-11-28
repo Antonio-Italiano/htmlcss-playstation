@@ -36,6 +36,7 @@ header .search {
     background-image: url(../img/jumbo-bg.png);
     background-position: center;   
     height: 675px;
+    margin-bottom: 40px;
 
 }
 #jumbotron .content {
@@ -44,4 +45,9 @@ header .search {
 
 #jumbotron .col-8 p {
     font-size: 45px;
+}
+
+#games img {
+    max-width: 100%;
+    display: block;
 }
