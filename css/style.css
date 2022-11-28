@@ -16,6 +16,11 @@ body {
     margin: 0 auto;
 }
 
+.btn-orange {
+    background-color: #CD3D0F;
+    border: 1px solid #CD3D0F;
+}
+
 /* Header */
 
 header .top-header {
@@ -25,4 +30,18 @@ header .top-header {
 
 header .search {
     height: 20px
+}
+
+#jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;   
+    height: 675px;
+
+}
+#jumbotron .content {
+    height: 60%;
+}
+
+#jumbotron .col-8 p {
+    font-size: 45px;
 }
