@@ -8,6 +8,16 @@
 /* Generics */
 body {
     font-family: sans-serif;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+section {
+    margin-bottom: 50px;
 }
 
 /* Utils */
@@ -22,10 +32,20 @@ body {
 }
 
 /* Header */
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 
+}
 header .top-header {
     background-color: #000;
     height: 30px;
+}
+header .top-header img {
+    display: inherit;
 }
 
 header .search {
@@ -36,7 +56,6 @@ header .search {
     background-image: url(../img/jumbo-bg.png);
     background-position: center;   
     height: 675px;
-    margin-bottom: 40px;
 
 }
 #jumbotron .content {
@@ -47,7 +66,13 @@ header .search {
     font-size: 45px;
 }
 
+/* GAMES */
 #games img {
     max-width: 100%;
     display: block;
+}
+
+/* PRESENTATION PS5 */
+#presentation-ps5 h2 {
+    font-size: 40px;
 }
