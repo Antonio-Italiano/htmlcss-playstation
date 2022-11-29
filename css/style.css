@@ -13,6 +13,7 @@ body {
 
 section {
     margin-bottom: 40px;
+    padding: 20px 0;
 }
 
 img {
@@ -66,17 +67,6 @@ header .search {
     height: 60%;
 }
 
-#new-games-top h2,
-#jumbotron h2 {
-    font-size: 45px;
-}
-
-#new-games-bottom h4 {
-    font-size: 25px;
-}
-#new-games-bottom h2 {
-    font-size: 35px;
-}
 
 
 /* PRESENTATION PS5 */
@@ -96,4 +86,17 @@ header .search {
 #new-games-bottom p {
     margin-top: 5px;
     font-size: 18px;
+}
+
+#new-games-top h2,
+#jumbotron h2 {
+    font-size: 45px;
+}
+
+
+#new-games-bottom h4 {
+    font-size: 25px;
+}
+#new-games-bottom h2 {
+    font-size: 35px;
 }
