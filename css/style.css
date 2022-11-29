@@ -24,6 +24,11 @@ img {
 sup {
     font-size: 9px;
 }
+
+h2 {
+    font-size: 45px;
+}
+
 /* Utils */
 .container {
     max-width: 1200px;
@@ -88,8 +93,7 @@ header .search {
     font-size: 18px;
 }
 
-#new-games-top h2,
-#jumbotron h2 {
+ h2 {
     font-size: 45px;
 }
 
