@@ -13,7 +13,7 @@ body {
 
 section {
     margin-bottom: 40px;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 
 img {
@@ -99,4 +99,9 @@ header .search {
 }
 #new-games-bottom h2 {
     font-size: 35px;
+}
+
+/* PlayStation Plus */
+#playstation-plus {
+    background-color: #BEBCBB;
 }
