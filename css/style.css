@@ -11,15 +11,18 @@ body {
     position: relative;
 }
 
+section {
+    margin-bottom: 40px;
+}
+
 img {
     max-width: 100%;
     display: block;
 }
 
-section {
-    margin-bottom: 50px;
+sup {
+    font-size: 9px;
 }
-
 /* Utils */
 .container {
     max-width: 1200px;
@@ -38,6 +41,7 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
+    z-index: 1;
 
 }
 header .top-header {
@@ -62,17 +66,34 @@ header .search {
     height: 60%;
 }
 
-#jumbotron .col-8 p {
+#new-games-top h2,
+#jumbotron h2 {
     font-size: 45px;
 }
 
-/* GAMES */
-#games img {
-    max-width: 100%;
-    display: block;
+#new-games-bottom h4 {
+    font-size: 25px;
+}
+#new-games-bottom h2 {
+    font-size: 35px;
 }
 
+
 /* PRESENTATION PS5 */
+#presentation-ps4 h2,
 #presentation-ps5 h2 {
     font-size: 40px;
+}
+
+/* New Games */
+#new-games-top {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    height: 955px;
+    margin-bottom: 0;
+}
+
+#new-games-bottom p {
+    margin-top: 5px;
+    font-size: 18px;
 }
