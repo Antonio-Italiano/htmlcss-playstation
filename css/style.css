@@ -5,15 +5,11 @@
     box-sizing: border-box;
 }
 
+
 /* Generics */
 body {
     font-family: sans-serif;
     position: relative;
-}
-
-section {
-    margin-bottom: 40px;
-    padding: 50px 0;
 }
 
 img {
@@ -26,11 +22,19 @@ sup {
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 40px;
+}
+
+h2 .sm {
+    font-size: 35px;
 }
 
 h3 {
     font-size: 35px;
+}
+
+h4 {
+    font-size: 25px;
 }
 
 ul a {
@@ -42,16 +46,12 @@ li {
     list-style-type: none;
 }
 
+
 /* Utils */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+.opaca {
+    opacity: 0.7;
 }
 
-.btn-orange {
-    background-color: #CD3D0F;
-    border: 1px solid #CD3D0F;
-}
 
 /* Header */
 header {
@@ -61,37 +61,35 @@ header {
     right: 0;
     bottom: 0;
     z-index: 1;
+}
 
-}
 header .top-header {
-    background-color: #000;
     height: 30px;
-}
-header .top-header img {
-    display: inherit;
 }
 
 header .search {
     height: 20px
 }
 
+
+/* Jumbotron  */
 #jumbotron {
     background-image: url(../img/jumbo-bg.png);
     background-position: center;   
     height: 675px;
-
 }
-#jumbotron .content {
-    height: 60%;
-}
-
 
 
 /* PRESENTATION PS5 */
-#presentation-ps4 h2,
-#presentation-ps5 h2 {
-    font-size: 40px;
+#presentation-ps5 figure {
+    height: 280px;
 }
+ 
+#presentation-ps5 figure:hover {
+    border-bottom: 2px solid #0D6EFD;
+    opacity: 1;
+}
+
 
 /* New Games */
 #new-games-top {
@@ -106,28 +104,20 @@ header .search {
     font-size: 18px;
 }
 
- h2 {
-    font-size: 45px;
-}
-
-
-#new-games-bottom h4 {
-    font-size: 25px;
-}
-#new-games-bottom h2 {
-    font-size: 35px;
-}
 
 /* PlayStation Plus */
 #playstation-plus {
     background-color: #BEBCBB;
 }
 
+
 /* PlayStation Now  */
 #playstation-now {
     background-color: #161C3B;
 }
 
+
+/* Footer  */
 footer {
     background-color: #00439C;
 }
